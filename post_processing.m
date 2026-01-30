@@ -6,7 +6,7 @@ close all
 load dataGT.mat pieces groundTruth
 
 % Circle detections
-load resultsVC.mat detections
+load resultsCV.mat detections
 
 data = zeros(93, 96);
 days = cell(93, 1);
