@@ -38,8 +38,8 @@ This repository contains a comprehensive MATLAB-based system for acoustic event 
 - **dataGT.mat** - Ground truth data (MATLAB binary format)
 - **KNNModel_0801.mat** - Pre-trained k-NN model
 - **SVMModel_1301.mat** - Pre-trained SVM model
-- **resultsKNN_1401.mat** - k-NN classification results
-- **resultsSVM_1401.mat** - SVM classification results
+- **resultsKNN_1401.mat** - k-NN classification results obtained with KNNModel_0801.mat.
+- **resultsSVM_1401.mat** - SVM classification results obtained with SVMModel_1301.mat.
 - **resultsCV.mat** - Additional classification results obtained via Visual Computer techniques (see [CV detection algorithm](https://github.com/MRomanRuiz/finwhale-20hz-calls-cv-detection)) for more information
 
 ### Evolutionary Algorithm Directory
